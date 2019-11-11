@@ -6,18 +6,18 @@
   url: "/venues/"
   side: left
   dropdown:
-  - title: "MLK Center"
-    url: "/venues/mlk/"
   - title: "300 Club"
     url: "/venues/300/"
+  - title: "MLK Center"
+    url: "/venues/mlk/"
   - title: "Jonesville Tennis Center"
     url: "/venues/jtc/"
-  - title: "Northside Park"
-    url: "/venues/northside/"
   - title: "Hal Brady Recreation Center"
     url: "/venues/halbrady/"
   - title: "Westside Park"
     url: "/venues/westside/"
+  - title: "Northside Park"
+    url: "/venues/northside/"
 
 - title: "Contact"
   url: "/contact/"
