@@ -40,6 +40,8 @@ format: venue
             <p>
               Regular play: {{ page.schedule }}
             </p>
+            {% else %}
+            <br>
             {% endif %}
             
 			{{ content }}
@@ -58,7 +60,7 @@ format: venue
             {% endif %}
             
             {% if page.website %}
-              <a href="http://{{ page.website }}">{{ page.website }}</a><br>
+              <a href="{{ page.website }}">{{ page.website }}</a><br>
             {% endif %}
             
 		</article>
