@@ -2,7 +2,7 @@
   url: "/"
   side: left
 
-- title: "Places to play pickleball in Gainesville"
+- title: "Where and when to play in Gainesville"
   url: "/venues/"
   side: left
   dropdown:
