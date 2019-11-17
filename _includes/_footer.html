@@ -21,17 +21,17 @@
 
 
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
-            {% for service_item in site.data.services %}
+            {% for link_item in site.data.links %}
               {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
+                <h5 class="shadow-black">{{ link_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
 
               <ul class="no-bullet shadow-black">
-              {% for service_item in site.data.services %}
-                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-                  <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+              {% for link_item in site.data.links %}
+                {% if link_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
+                  <li {% if link_item.class %}class="{{ link_item.class }}" {% endif %}>
+                    <a href="{{ domain }}{{ link_item.url }}" {% if link_item.url contains 'http' %}target="_blank" {% endif %} title="{{ link_item.title }}">{{ link_item.name }}</a>
                   </li>
               {% endfor %}
               </ul>
