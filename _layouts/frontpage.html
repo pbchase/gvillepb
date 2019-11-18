@@ -16,17 +16,22 @@ format: frontpage
 *
 {% endcomment %}
 <div class="row t60">
+    <div class="medium-6 columns frontpage-widget">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
+        <h3>News</h3><br>
+		{% include list-posts entries='4' offset='0' category='news' %}
 	{% endif %}
-
+    </div>
 	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
 		{% include _frontpage-widget.html widget=page.widget2 %}
 	{% endif %}
 
+    <div class="medium-6 columns frontpage-widget">
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
+        <h3>Tournaments</h3>
+        {% include list-posts entries='4' offset='0' category='tournaments' %}
 	{% endif %}
+    </div>
 </div><!-- /.row -->
 
 
