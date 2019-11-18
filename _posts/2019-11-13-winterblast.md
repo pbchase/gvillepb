@@ -5,6 +5,7 @@ short_name: "Winter Blast"
 address: Richardson Community Center, 255 NE Coach Anders Ln, Florida 32055 United States
 google_maps_link: https://goo.gl/maps/yFkhaDk738BZ8nvn7
 
+event_start_date: 2020-01-17
 outdoor: false
 number_of_courts: 3
 private: false
