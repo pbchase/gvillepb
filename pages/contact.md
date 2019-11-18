@@ -5,6 +5,8 @@ list_heading: "## Newsletter"
 list_invite: "Want to get news about pickleball in Gainesville in your inbox? Sign up for our email newsletter for updates about the club and big events in the area."
 meta_title: "Contact the club and its members"
 permalink: "/contact/"
+header:
+    image_fullwidth: paddles_at_jtc.jpg
 ---
 
 ## Club members
