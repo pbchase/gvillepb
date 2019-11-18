@@ -14,7 +14,7 @@ header:
     image: pickleball-veritas.png
     background-color: "#FFFFFF"
 categories:
-    - news
+    - tournaments
 ---
 <!--more-->
 

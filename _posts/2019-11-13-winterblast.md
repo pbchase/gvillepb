@@ -14,7 +14,8 @@ header:
     image: lake_city_winter_blast.jpg
     background-color: "#262930"
 categories:
-    - news
+    - tournaments
+teaser: January 17, 2020
 ---
 <!--more-->
 

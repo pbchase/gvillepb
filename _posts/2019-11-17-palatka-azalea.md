@@ -6,7 +6,7 @@ venue: Palatka High School
 address: 302 Mellon Rd Palatka, Florida 32177
 google_maps_link: https://goo.gl/maps/E5ejiwYa4SbiMpnYA
 
-
+event_start_date: 2020-03-07
 outdoor: true
 number_of_courts: 16
 private: false
@@ -15,7 +15,7 @@ header:
     image: palatka-azalea.png
     background-color: "#FFFFFF"
 categories:
-    - news
+    - tournaments
 ---
 <!--more-->
 
